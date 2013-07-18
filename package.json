@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "prepublish": ""
+    "prepublish": "grunt"
   },
   "repository": {
     "type": "git",
