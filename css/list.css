@@ -15,7 +15,7 @@
 * limitations under the License.
 *
 */
-.list-container {
+.list {
   padding: 0;
   margin: 0;
   font: inherit;
@@ -27,12 +27,15 @@
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
-.list {
+.list__header {
+  margin: 0;
+}
+.list__container {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-.list-item {
+.list__item {
   margin: 0;
   padding: 0;
 }

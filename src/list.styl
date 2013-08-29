@@ -16,13 +16,20 @@
 *
 */
 
-@import list-mixin
-
-.list-container
-  list-container()
+@import utils
 
 .list
-  list()
+  reset-base()
+  reset-cursor()
+  overflow auto
+  -webkit-overflow-scrolling touch
 
-.list-item
-  list-item()
+.list__header
+  margin 0
+
+.list__container
+  reset-list()
+
+.list__item
+  margin 0
+  padding 0
