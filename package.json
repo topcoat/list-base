@@ -1,6 +1,6 @@
 {
   "name": "topcoat-list-base",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Topcoat list base",
   "main": "index.html",
   "style": "src/list.css",
