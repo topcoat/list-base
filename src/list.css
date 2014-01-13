@@ -16,20 +16,24 @@
 *
 */
 
-@import utils
+@import "topcoat-utils";
 
-.list
-  reset-base()
-  reset-cursor()
-  overflow auto
-  -webkit-overflow-scrolling touch
+%list {
+  extend: %reset-base;
+  extend: %reset-cursor;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-.list__header
-  margin 0
+%list__header {
+  margin: 0;
+}
 
-.list__container
-  reset-list()
+%list__container {
+  extend: %reset-list;
+}
 
-.list__item
-  margin 0
-  padding 0
+%list__item {
+  margin: 0;
+  padding: 0;
+}

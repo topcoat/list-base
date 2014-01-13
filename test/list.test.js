@@ -27,7 +27,7 @@ describe('Topcoat list base', function() {
 
     it('should output correct css', function() {
         var actual = grunt.file.read('css/list.css');
-        var expected = grunt.file.read('test/expected/list.css');
+        var expected = grunt.file.read('test/expected/list.css').trim();
         assert.equal(actual, expected, 'should generate correct css');
     });
 
