@@ -1,0 +1,12 @@
+.list {
+	@extend %list;
+}
+.list__header {
+	@extend %list__header;
+}
+.list__container {
+	@extend %list__container;
+}
+.list__item {
+	@extend %list__item;
+}
